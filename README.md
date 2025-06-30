@@ -1,6 +1,5 @@
 ### jenkins-app-test
-### test-001
-### test-002
+
 
 Simple react-app project with Jenkinsfile to be used/tested with [jenkins-local](https://github.com/mmendesas/jenkins-local) structure.
 

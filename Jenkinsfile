@@ -1,11 +1,14 @@
 pipeline {
-  agent { label 'agent-001' }
+  
+  agent { label 'linux' } 
+
   environment {
     CI = 'true'
   }
   stages {
     stage('Prepare') {
       steps {
+        
         sh 'pwd'
         sh 'whoami'
         sh 'ls -lash'
